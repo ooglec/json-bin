@@ -1,0 +1,60 @@
+{
+    "MakerAddress": "0x8478F8c1d693aB4C054d3BBC0aBff4178b8F1b0B",
+    "TokenSelling": {
+        "name": "Wrapped Ether",
+        "address": "0x2715Ccea428F8c7694f7e78B2C89cb454c5F7294",
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 5,
+        "logoURI": "https://changenow.io/images/cached/weth.png",
+        "Price": 1544.86
+    },
+    "TokenSellingAmount": 10000000000000000,
+    "TokenWanted": {
+        "name": "USD Coin",
+        "address": "0xD3664B5e72B46eaba722aB6f43c22dBF40181954",
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 5,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+        "Price": 0.999801
+    },
+    "TokenWantedAmount": 19000000,
+    "isPublic": true,
+    "chainId": 5,
+    "OrderKey": "0xf77087f84d7d9da75b9303e7bfa0456a4ad96924cfcd6a39513dceb4c6fed83a",
+    "OrderData": {
+        "parameters": {
+            "offerer": "0x8478F8c1d693aB4C054d3BBC0aBff4178b8F1b0B",
+            "zone": "0xea2b4e7f02b859305093f9f4778a19d66ca176d5",
+            "zoneHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "startTime": "1697106616",
+            "endTime": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "orderType": 3,
+            "offer": [
+                {
+                    "itemType": 1,
+                    "token": "0x2715Ccea428F8c7694f7e78B2C89cb454c5F7294",
+                    "identifierOrCriteria": "0",
+                    "startAmount": "10000000000000000",
+                    "endAmount": "10000000000000000"
+                }
+            ],
+            "consideration": [
+                {
+                    "itemType": 1,
+                    "token": "0xD3664B5e72B46eaba722aB6f43c22dBF40181954",
+                    "identifierOrCriteria": "0",
+                    "startAmount": "19000000",
+                    "endAmount": "19000000",
+                    "recipient": "0x8478F8c1d693aB4C054d3BBC0aBff4178b8F1b0B"
+                }
+            ],
+            "totalOriginalConsiderationItems": 1,
+            "salt": "0x000000000000000000000000000000000000000000000000cf43c3f044113d1d",
+            "conduitKey": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "counter": "0"
+        },
+        "signature": ""
+    }
+}
